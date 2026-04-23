@@ -1,5 +1,5 @@
 {% set name = "aws-eventstream" %}
-{% set version = "1.0.3" %}
+{% set version = "1.1.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 0663148610d2569af140fbb880880773b62b2c12ee1ccc7fb9e4f558d4390f80
+  sha256: 65b3b364861f4e2663359793e7632da70be9418d0d1f1b9bcbb365ec8db11764
 
 build:
   noarch: generic
